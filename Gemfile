@@ -15,8 +15,8 @@ gem 'turbolinks'
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
 group :development, :test do
   gem 'rack_session_access'
-  gem "capybara"
-  gem "poltergeist"
+  gem "capybara", ">= 3.15.0"
+  gem "poltergeist", ">= 1.18.1"
   gem "database_cleaner"
   gem "pry-byebug"
   gem "rspec-rails"
