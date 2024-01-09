@@ -10,7 +10,7 @@ gem 'bootsnap'
 gem 'faker'
 gem 'sqlite3', '~>1.3.6'
 gem 'rails-controller-testing'
-gem 'puma'
+gem 'puma', '>= 5.6.8'
 gem 'turbolinks'
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
 group :development, :test do
